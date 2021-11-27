@@ -1,0 +1,198 @@
+/* Style global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* estilo fondo */
+body {
+    background-image: url(images/Fondo.jpg);
+    background-size: 100%;
+    width: 100%;
+    font-family: "Vibur", cursive;
+    font-family: "Abel", sans-serif;
+    opacity: 0.90;
+}
+
+/* estilo forma */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin: 1% auto;
+    padding: 1%; /* grande */
+    /* background-image: linear-gradient(-225deg, #60bef5 30%, #e25396 70%); */
+    background-image: linear-gradient(-225deg, #eaec65 30%, #ca410a 70%);
+}
+
+/* estilo del contenedor */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin:  auto;
+    background: none;
+}
+
+/*  estilo titulo forma  */
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+    background: none;
+}
+
+/* estilo titulo de la forma */
+header h2 {
+    font-size: 250%;
+    font-family: "Playfair Display", serif;
+    color: #000000;
+}
+
+/*  estilo explicacion de la forma */
+header p {
+    letter-spacing: 0.05px;
+    color: #252537;
+}
+
+/*  estilo de las cajas input */
+.form-input{
+    background: white;
+    padding: 15px 30px 15px 9px;
+    align-self: center;
+}
+
+/*  estilo icono de usuario y password*/
+.input-item {
+    background: #ca410a;
+    /* background: #e25396; */
+    color: rgb(16, 17, 17);
+    padding: 15px 3px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+} 
+
+/* estilo icono para ver contraseña */
+#eye {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin: -69.9px 0px 0px 0px;
+    margin-left: 0px;
+    padding: 12px 5px 25px 0px;
+    border-radius: 20px 20px 20px 20px;
+    float: right;
+    position: relative;
+    right: 11%;
+    top: 2%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+/* estilo del input  */
+input[class="form-input"] {
+    width: 240px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Abel", sans-serif;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+    transition: 0.2s linear;
+}
+
+input[id="txt-input"] {
+    width: 250px;
+}
+
+input[id="pwd"]{
+    width: 250px; 
+}  
+
+/* estilo del focus */
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+    background-image: linear-gradient(-225deg, #ffffff 30%, #ffffff 70%);
+    border-style: outset;
+    border-color: rgb(245, 78, 0);
+    /* border-color: rgb(238, 10, 169); */
+}
+
+/* estilo de los botones  */
+button {
+    display: inline-block;
+    color: #000000;
+    width: 280px;
+    height: 50px;
+    padding: 0 20px;
+    background: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 5% auto;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+}
+
+/* Submits */
+.submits {
+    align-content: center;
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+}
+
+
+/* buttons hover / click above */
+button:hover {
+    transform: translatey(3px);
+    background: transparent;
+    background: none;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#txt-language{
+    color: white;
+    font-family: "Italic";
+    /* font-style: italic; */
+    text-align: right;
+    
+}
+
+.language{
+    text-align: right;
+    margin: 1% 2%;
+}
+
+#language{
+    background: rgb(255, 255, 255);
+    min-height: 1px;
+    height: auto;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* estilo del nombre de la empresa */
+.company_name {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+    .company_name {
+        text-align: center;
+    }
